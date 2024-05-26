@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="icon" href="../images/keystone_logo.webp" type="image/jpeg" />
+
+    <title>Keystone School of Engineering</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <inn-header></inn-header>
+    </header>
+    <div class="timetablesection1" style="text-transform: lowercase">
+      <h1>Department Of Computer Engineering</h1>
+      <h1>A.Y.2023-24</h1>
+      <h1>TIME TABLES</h1>
+      <div class="ttselect-container">
+        <span class="ttstext"
+          >Select Class
+          <div class="ttselect-menu" style="display: inline">
+            <select id="tt-select-menu">
+              <option>Year & Division</option>
+              <option value="sea">
+                <i class="ri-building-4-fill"></i>SE (A)
+              </option>
+              <option value="seb">
+                <i class="ri-building-4-fill"></i>SE (B)
+              </option>
+              <option value="sec">
+                <i class="ri-building-4-fill"></i>SE (C)
+              </option>
+              <option value="tea">
+                <i class="ri-building-4-fill"></i>TE (A)
+              </option>
+              <option value="teb">
+                <i class="ri-building-4-fill"></i>TE (B)
+              </option>
+              <option value="be"><i class="ri-building-4-fill"></i>BE</option>
+            </select>
+          </div></span
+        >
+      </div>
+    </div>
+    <div class="timetablesection">
+      <div class="sea tabdata">
+        <h2>SE (A) SEM 4</h2>
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>TIME/DAY</th>
+              <th>MONDAY</th>
+              <th>TUESDAY</th>
+              <th>WEDNESDAY</th>
+              <th>THURSDAY</th>
+              <th>FRIDAY</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:45 - 9:45</td>
+              <td>SE (VS)</td>
+              <td>PPL (PRK)</td>
+              <td>EM-III (BM)</td>
+              <td>DSA (TS)</td>
+              <td>GFM MEETING</td>
+            </tr>
+            <tr>
+              <td>9:45 - 10:45</td>
+              <td>DSA (TS)</td>
+              <td>EM-III (BM)</td>
+              <td>SE (VS)</td>
+              <td>EM-III (BM)</td>
+              <td>MP (MM)</td>
+            </tr>
+            <tr class="active-row">
+              <td>10:45 - 11:00</td>
+              <td colspan="5">SHORT RECESS</td>
+            </tr>
+            <tr>
+              <td>11:00 - 12:00</td>
+              <td rowspan="2">
+                MPL (SA1,SA2)(L4) <br />
+                PBL (SA3,SA4)(NL2)
+              </td>
+              <td rowspan="2">
+                DSAL (SA1,SA2)(L1) <br />
+                PBL (SA3,SA4)(NL2)
+              </td>
+              <td rowspan="2">
+                DSAL (SA1,SA2)(L1) <br />
+                MPL (SA3,SA4)(L4)
+              </td>
+              <td rowspan="2">
+                PBL (SA1,SA2)(NL2) <br />
+                DSAL (SA3,SA4)(L1)
+              </td>
+              <td rowspan="2">
+                PBL (SA1,SA2)(NL2) <br />
+                DSAL (SA3,SA4)(L1)
+              </td>
+            </tr>
+            <tr>
+              <td>12:00 - 1:00</td>
+            </tr>
+            <tr class="active-row">
+              <td>1:00 - 1:45</td>
+              <td colspan="5">LONG RECESS</td>
+            </tr>
+            <tr>
+              <td>1:45 - 2:45</td>
+              <td>PPL (PRK)</td>
+              <td>MP (MM)</td>
+              <td>MP (MM)</td>
+              <td>PPL (PRK)</td>
+              <td rowspan="2">CLUB ACTIVITY</td>
+            </tr>
+            <tr>
+              <td>2:45 - 3:45</td>
+              <td>DSA (TS)</td>
+              <td>CODE OF CONDUCT</td>
+              <td>EM-III (BM)</td>
+              <td>EM-III (BM)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="sea tabdet">
+        <h2>SE (A) SEM 4</h2>
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>TIME/DAY</th>
+              <th>MONDAY</th>
+              <th>TUESDAY</th>
+              <th>WEDNESDAY</th>
+              <th>THURSDAY</th>
+              <th>FRIDAY</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:45 - 9:45</td>
+              <td>SE (VS)</td>
+              <td>PPL (PRK)</td>
+              <td>EM-III (BM)</td>
+              <td>DSA (TS)</td>
+              <td>GFM MEETING</td>
+            </tr>
+            <tr>
+              <td>9:45 - 10:45</td>
+              <td>DSA (TS)</td>
+              <td>EM-III (BM)</td>
+              <td>SE (VS)</td>
+              <td>EM-III (BM)</td>
+              <td>MP (MM)</td>
+            </tr>
+            <tr class="active-row">
+              <td>10:45 - 11:00</td>
+              <td colspan="5">SHORT RECESS</td>
+            </tr>
+            <tr>
+              <td>11:00 - 12:00</td>
+              <td rowspan="2">
+                MPL (SA1,SA2)(L4) <br />
+                PBL (SA3,SA4)(NL2)
+              </td>
+              <td rowspan="2">
+                DSAL (SA1,SA2)(L1) <br />
+                PBL (SA3,SA4)(NL2)
+              </td>
+              <td rowspan="2">
+                DSAL (SA1,SA2)(L1) <br />
+                MPL (SA3,SA4)(L4)
+              </td>
+              <td rowspan="2">
+                PBL (SA1,SA2)(NL2) <br />
+                DSAL (SA3,SA4)(L1)
+              </td>
+              <td rowspan="2">
+                PBL (SA1,SA2)(NL2) <br />
+                DSAL (SA3,SA4)(L1)
+              </td>
+            </tr>
+            <tr>
+              <td>12:00 - 1:00</td>
+            </tr>
+            <tr class="active-row">
+              <td>1:00 - 1:45</td>
+              <td colspan="5">LONG RECESS</td>
+            </tr>
+            <tr>
+              <td>1:45 - 2:45</td>
+              <td>PPL (PRK)</td>
+              <td>MP (MM)</td>
+              <td>MP (MM)</td>
+              <td>PPL (PRK)</td>
+              <td rowspan="2">CLUB ACTIVITY</td>
+            </tr>
+            <tr>
+              <td>2:45 - 3:45</td>
+              <td>DSA (TS)</td>
+              <td>CODE OF CONDUCT</td>
+              <td>EM-III (BM)</td>
+              <td>EM-III (BM)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="seb tabdet">
+        <h2>SE (B)</h2>
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>TIME/DAY</th>
+              <th>MONDAY</th>
+              <th>TUESDAY</th>
+              <th>WEDNESDAY</th>
+              <th>THURSDAY</th>
+              <th>FRIDAY</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:45 - 9:45</td>
+              <td rowspan="2">
+                DSAL (SB1,SB2)(L1) <br />
+                MPL (SB3,SB4)(L4)
+              </td>
+              <td rowspan="2">
+                MPL (SB1,SB2)(L4) <br />
+                PBL (SB3,SB4)(NL2)
+              </td>
+              <td rowspan="2">
+                PBL (SB1,SB2)(NL2) <br />
+                DSAL (SB3,SB4)(L1)
+              </td>
+              <td rowspan="2">
+                PBL (SB1,SB2)(NL2) <br />
+                DSAL (SB3,SB4)(L1)
+              </td>
+              <td rowspan="2">
+                DSAL (SB1,SB2)(L1) <br />
+                PBL (SB3,SB4)(NL2)
+              </td>
+            </tr>
+            <tr>
+              <td>9:45 - 10:45</td>
+            </tr>
+            <tr class="active-row">
+              <td>10:45 - 11:00</td>
+              <td colspan="5">SHORT RECESS</td>
+            </tr>
+            <tr>
+              <td>11:00 - 12:00</td>
+              <td>MP (RD)</td>
+              <td>PPL (SM)</td>
+              <td>DSA (PRK)</td>
+              <td>SE (MR)</td>
+              <td>EM-III (BM)</td>
+            </tr>
+            <tr>
+              <td>12:00 - 1:00</td>
+              <td>DSA (PRK)</td>
+              <td>SE (MR)</td>
+              <td>MP (RD)</td>
+              <td>EM-III (BM)</td>
+              <td>EM-III (BM)</td>
+            </tr>
+            <tr class="active-row">
+              <td>1:00 - 1:45</td>
+              <td colspan="5">LONG RECESS</td>
+            </tr>
+            <tr>
+              <td>1:45 - 2:45</td>
+              <td>SE (MR)</td>
+              <td>DSA (PRK)</td>
+              <td>PPL (SM)</td>
+              <td>PPL (SM)</td>
+              <td rowspan="2">CLUB ACTIVITY</td>
+            </tr>
+            <tr>
+              <td>2:45 - 3:45</td>
+              <td>EM-III (BM)</td>
+              <td>GFM MEETING</td>
+              <td>CODE OF CONDUCT</td>
+              <td>MP (RD)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sec tabdet">
+        <h2>SE (C) SEM 4</h2>
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>TIME/DAY</th>
+              <th>MONDAY</th>
+              <th>TUESDAY</th>
+              <th>WEDNESDAY</th>
+              <th>THURSDAY</th>
+              <th>FRIDAY</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:45 - 9:45</td>
+              <td>EM-III (BM)</td>
+              <td>CODE OF CONDUCT</td>
+              <td>DSA (MR)</td>
+              <td>GFM MEETING</td>
+              <td rowspan="2">
+                DSAL (SC1,SC2)(L1) <br />
+                PBL (SC3,SC4)(L5)
+              </td>
+            </tr>
+            <tr>
+              <td>9:45 - 10:45</td>
+              <td>SE (DJ)</td>
+              <td>SE (DJ)</td>
+              <td>PPL (RD)</td>
+              <td>DSA (MR)</td>
+            </tr>
+            <tr class="active-row">
+              <td>10:45 - 11:00</td>
+              <td colspan="5">SHORT RECESS</td>
+            </tr>
+            <tr>
+              <td>11:00 - 12:00</td>
+              <td>EM-III (BM)</td>
+              <td>MP (MM)</td>
+              <td>EM-III (BM)</td>
+              <td>MP (MM)</td>
+              <td>MP (MM)</td>
+            </tr>
+            <tr>
+              <td>12:00 - 1:00</td>
+              <td>DSA (MR)</td>
+              <td>EM-III (BM)</td>
+              <td>SE (DJ)</td>
+              <td>PPL (RD)</td>
+              <td>PPL (RD)</td>
+            </tr>
+
+            <tr class="active-row">
+              <td>1:00 - 1:45</td>
+              <td colspan="5">LONG RECESS</td>
+            </tr>
+            <tr>
+              <td>11:00 - 12:00</td>
+              <td rowspan="2">
+                PBL (SC1,SC2)(L5) <br />
+                MPL (SC3,SC4)(L4)
+              </td>
+              <td rowspan="2">
+                DSAL (SC1,SC2)(L1) <br />
+                PBL (SC3,SC4)(NL2)
+              </td>
+              <td rowspan="2">
+                PBL (SC1,SC2)(L5) <br />
+                DSAL (SC3,SC4)(L1)
+              </td>
+              <td rowspan="2">
+                MPL (SC1,SC2)(L4) <br />
+                DSAL (SC3,SC4)(L1)
+              </td>
+
+              <td rowspan="2">CLUB ACTIVITY</td>
+            </tr>
+            <tr>
+              <td>12:00 - 1:00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="tea tabdet">
+        <h2>TE (A) SEM 6</h2>
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>TIME/DAY</th>
+              <th>MONDAY</th>
+              <th>TUESDAY</th>
+              <th>WEDNESDAY</th>
+              <th>THURSDAY</th>
+              <th>FRIDAY</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:45 - 9:45</td>
+              <td rowspan="2">
+                DSBDA(TA1,TA2)(L3) <br />
+                LP-II-CC(TA3,TA4)(L5)
+              </td>
+              <td rowspan="2">
+                DSBDA(TA1,TA2)(L3) <br />
+                LP-II-AI(TA3,TA4)(L5)
+              </td>
+              <td rowspan="2">
+                WT(TA1,TA2)(L2) <br />
+                DSBDA(TA3,TA4)(L3)
+              </td>
+              <td rowspan="2">
+                LP-II-AI(TA1,TA2)(L5)<br />
+                DSBDA(TA3,TA4)(L3)
+              </td>
+              <td>GFM MEETING</td>
+            </tr>
+            <tr>
+              <td>9:45 - 10:45</td>
+              <td>AI(PDK)</td>
+            </tr>
+            <tr class="active-row">
+              <td>10:45 - 11:00</td>
+              <td colspan="5">SHORT RECESS</td>
+            </tr>
+            <tr>
+              <td>11:00 - 12:00</td>
+              <td>DSBDA(SDM)</td>
+              <td>CC(RT)</td>
+              <td>AI(PDK)</td>
+              <td>AI(PDK)</td>
+              <td>WT(SR)</td>
+            </tr>
+            <tr>
+              <td>12:00 - 1:00</td>
+              <td>CC(RT)</td>
+              <td>WT(SR)</td>
+              <td>WT(SR)</td>
+              <td>DSBDA(SDM)</td>
+              <td>DSBDA(SDM)</td>
+            </tr>
+            <tr class="active-row">
+              <td>1:00 - 1:45</td>
+              <td colspan="5">LONG RECESS</td>
+            </tr>
+            <tr>
+              <td>1:45 - 2:45</td>
+              <td rowspan="2">INTERSHIP REVIEW</td>
+              <td rowspan="2">
+                LP-II-CC(TB1,TB2)(L5) <br />
+                WT(TB3,TB4)(L2)
+              </td>
+              <td>DSBDA(SDM)</td>
+              <td>WT(SR)</td>
+              <td>AI(PDK)</td>
+            </tr>
+            <tr>
+              <td>2:45 - 3:45</td>
+              <td>CC(RT)</td>
+              <td>-</td>
+              <td>CC(RT)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="teb tabdet">
+        <h2>TE (B) SEM 6</h2>
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>TIME/DAY</th>
+              <th>MONDAY</th>
+              <th>TUESDAY</th>
+              <th>WEDNESDAY</th>
+              <th>THURSDAY</th>
+              <th>FRIDAY</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:45 - 9:45</td>
+              <td>AI(PDK)</td>
+              <td>WT(TS)</td>
+              <td>WT(TS)</td>
+              <td>-</td>
+              <td>GFM MEETING</td>
+            </tr>
+            <tr>
+              <td>9:45 - 10:45</td>
+              <td>CC(VW)</td>
+              <td>DSBDA(SDM)</td>
+              <td>WT(TS)</td>
+              <td>DSBDA(SDM)</td>
+              <td>DSBDA(SDM)</td>
+            </tr>
+            <tr class="active-row">
+              <td>10:45 - 11:00</td>
+              <td colspan="5">SHORT RECESS</td>
+            </tr>
+            <tr>
+              <td>11:00 - 12:00</td>
+              <td rowspan="2">
+                LP-II-AI(TB1,TB2)(L5) <br />
+                WT(TB3,TB4)(L2)
+              </td>
+              <td rowspan="2">
+                DSBDA(TB1,TB2)(L3) <br />
+                LP-II-AI(TB3,TB4)(L5)
+              </td>
+              <td rowspan="2">
+                DSBDA(TB1,TB2)(L3) <br />
+                LP-II-CC(TB3,TB4)(L5)
+              </td>
+              <td rowspan="2">
+                LP-II-CC(TB1,TB2)(L5) <br />
+                DSBDA(TB3,TB4)(L3)
+              </td>
+              <td>WT(TS)</td>
+            </tr>
+            <tr>
+              <td>12:00 - 1:00</td>
+              <td>AI(PDK)</td>
+            </tr>
+            <tr class="active-row">
+              <td>1:00 - 1:45</td>
+              <td colspan="5">LONG RECESS</td>
+            </tr>
+            <tr>
+              <td>1:45 - 2:45</td>
+              <td rowspan="2">INTERSHIP REVIEW</td>
+              <td rowspan="2">
+                WT(TB1,TB2)(L4) <br />
+                DSBDA(TB3,TB4)(L3)
+              </td>
+              <td>AI(PDK)</td>
+              <td>AI(PDK)</td>
+              <td>CC(VW)</td>
+            </tr>
+            <tr>
+              <td>2:45 - 3:45</td>
+              <td>CC(VW)</td>
+              <td>CC(VW)</td>
+              <td>DSBDA(SDM)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="be tabdet">
+        <h2>BE SEM 8</h2>
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>TIME/DAY</th>
+              <th>MONDAY</th>
+              <th>TUESDAY</th>
+              <th>WEDNESDAY</th>
+              <th>THURSDAY</th>
+              <th>FRIDAY</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:45 - 9:45</td>
+              <td rowspan="2">PROJECT</td>
+              <td rowspan="2">DL (B1,B2,B3,B4)(NL1)</td>
+              <td>HPC (DJ)</td>
+              <td>HPC (DJ)</td>
+              <td>GFM MEETING</td>
+            </tr>
+            <tr>
+              <td>9:45 - 10:45</td>
+              <td>SDN (RT)</td>
+              <td>SDN (RT)</td>
+              <td>-</td>
+            </tr>
+            <tr class="active-row">
+              <td>10:45 - 11:00</td>
+              <td colspan="5">SHORT RECESS</td>
+            </tr>
+            <tr>
+              <td>11:00 - 12:00</td>
+              <td rowspan="2">PROJECT</td>
+              <td>DL (RP)</td>
+              <td>BI (VW)</td>
+              <td rowspan="2">BI (B1,B2,B3,B4)(NL1)</td>
+              <td>SDN (RT)</td>
+            </tr>
+            <tr>
+              <td>12:00 - 1:00</td>
+              <td>DL (RP)</td>
+              <td>DL (RP)</td>
+              <td>BI (VW)</td>
+            </tr>
+            <tr class="active-row">
+              <td>1:00 - 1:45</td>
+              <td colspan="5">LONG RECESS</td>
+            </tr>
+            <tr>
+              <td>1:45 - 2:45</td>
+              <td rowspan="2">PROJECT</td>
+              <td>BI (VW)</td>
+              <td rowspan="2">HPC (B1,B2,B3,B4)(L3)</td>
+              <td>HPC (DJ)</td>
+              <td rowspan="2">PROJECT</td>
+            </tr>
+            <tr>
+              <td>2:45 - 3:45</td>
+              <td>-</td>
+              <td>SDN (RT)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#tt-select-menu").change(function () {
+          var name = $("#tt-select-menu").val();
+          $(".tabdata").hide();
+          $(".tabdet").hide();
+          $("." + name).show();
+        });
+      });
+    </script>
+  </body>
+</html>

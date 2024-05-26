@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="icon" href="../images/keystone_logo.webp" type="image/jpeg" />
+
+    <title>Keystone School of Engineering</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <inn-header></inn-header>
+    </header>
+
+    <div class="notices">
+      <div class="noticestitle">
+        <h2>Examination Notices</h2>
+      </div>
+      <div class="clearbttndiv">
+        <button class="noticesButton clear-bttn" onclick="examClear()">
+          <i class="ri-close-circle-fill"></i>
+        </button>
+      </div>
+      <div class="noticesBox" id="noticesBox">
+        <div class="noticesbtndiv">
+          <button class="noticesButton" onclick="Exam_Form_Notice()">
+            Exam Form Notice
+          </button>
+          <button class="noticesButton" onclick="Backlog_Notice()">
+            Backlog Notice
+          </button>
+          <button class="noticesButton" onclick="Photocopy_Revolution_Form()">
+            Photocopy Revolution Form
+          </button>
+        </div>
+        <div id="noticesdiv"></div>
+      </div>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+    <script>
+      function examClear() {
+        document.getElementById("noticesdiv").innerHTML = " ";
+      }
+      function Exam_Form_Notice() {
+        document.getElementById("noticesdiv").innerHTML = `
+        <iframe
+          src="https://drive.google.com/file/d/1Wf3-LHi9de3aiUmyhLyqr8tA2TTiTF8a/preview#toolbar=0"
+          allow="autoplay"
+          width="100%"
+          height="100%"
+          class="syllembed"
+        >
+        </iframe>
+  `;
+      }
+      function Backlog_Notice() {
+        document.getElementById("noticesdiv").innerHTML = `
+        <iframe
+          src="https://drive.google.com/file/d/1eYzoiNfuwBMpiYCIoH9tXHzkFGe3fTko/preview#toolbar=0"
+          allow="autoplay"
+          width="100%"
+          height="100%"
+          class="syllembed"
+        >
+        </iframe>
+  `;
+      }
+      function Photocopy_Revolution_Form() {
+        document.getElementById("noticesdiv").innerHTML = `
+        <iframe
+          src="https://drive.google.com/file/d/1Wa_QilA60rQE7XR18G5zPXYrNAgibLMb/preview#toolbar=0"
+          allow="autoplay"
+          width="100%"
+          height="100%"
+          class="syllembed"
+        >
+        </iframe>
+  `;
+      }
+    </script>
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>

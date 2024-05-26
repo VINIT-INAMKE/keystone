@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="icon" href="../images/keystone_logo.webp" type="image/jpeg" />
+
+    <title>Keystone School of Engineering</title>
+  </head>
+
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <inn-header></inn-header>
+    </header>
+    <div class="timetablesection1">
+      <h1>First Year Engineering</h1>
+      <h1>A.Y.2023-24</h1>
+      <h1>TIME TABLES</h1>
+      <div class="ttselect-container">
+        <span class="ttstext"
+          >Select Class
+          <div class="ttselect-menu" style="display: inline">
+            <select id="tt-select-menu">
+              <option>Division</option>
+              <option value="da">
+                <i class="ri-building-4-fill"></i>Divison A
+              </option>
+              <option value="db">
+                <i class="ri-building-4-fill"></i>Divison B
+              </option>
+              <option value="dc">
+                <i class="ri-building-4-fill"></i>Divison C
+              </option>
+              <option value="dd">
+                <i class="ri-building-4-fill"></i>Divison D
+              </option>
+            </select>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div class="timetablesection">
+      <div class="da tabdata">
+        <h2>Div A SEM 4</h2>
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>TIME/DAY</th>
+              <th>MONDAY</th>
+              <th>TUESDAY</th>
+              <th>WEDNESDAY</th>
+              <th>THURSDAY</th>
+              <th>FRIDAY</th>
+              <th>Saturday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:45 - 9:45</td>
+              <td rowspan="2">
+                EM (A1) <br />
+                BXE (A2)
+              </td>
+              <td rowspan="2">
+                BXE (A1) <br />
+                EM (A2)
+              </td>
+              <td>EM-I</td>
+              <td>SME</td>
+              <td>EM-I</td>
+              <td rowspan="2">
+                EM (A1) <br />
+                BXE (A2)
+              </td>
+            </tr>
+            <tr>
+              <td>9:45 - 10:45</td>
+              <td>CHEM</td>
+              <td>EM-I</td>
+              <td>SME</td>
+            </tr>
+            <tr class="active-row">
+              <td>10:45 - 11:00</td>
+              <td colspan="6">SHORT RECESS</td>
+            </tr>
+            <tr>
+              <td>11:00 - 12:00</td>
+              <td>CHEM</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+              <td>CHEM</td>
+              <td rowspan="2">
+                EM (A1) <br />
+                BXE (A2)
+              </td>
+            </tr>
+            <tr>
+              <td>12:00 - 1:00</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+            </tr>
+            <tr class="active-row">
+              <td>1:00 - 1:45</td>
+              <td colspan="6">LONG RECESS</td>
+            </tr>
+            <tr>
+              <td>1:45 - 2:45</td>
+              <td>SME</td>
+              <td>BXE</td>
+              <td>BXE</td>
+              <td>CHEM</td>
+              <td>BXE</td>
+              <td rowspan="2"></td>
+            </tr>
+            <tr>
+              <td>2:45 - 3:45</td>
+              <td>SME</td>
+              <td>CHEM</td>
+              <td>SME</td>
+              <td>AC</td>
+              <td>BXE</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="da tabdet">
+        <h2>Div A SEM 4</h2>
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>TIME/DAY</th>
+              <th>MONDAY</th>
+              <th>TUESDAY</th>
+              <th>WEDNESDAY</th>
+              <th>THURSDAY</th>
+              <th>FRIDAY</th>
+              <th>Saturday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:45 - 9:45</td>
+              <td rowspan="2">
+                EM (A1) <br />
+                BXE (A2)
+              </td>
+              <td rowspan="2">
+                BXE (A1) <br />
+                EM (A2)
+              </td>
+              <td>EM-I</td>
+              <td>SME</td>
+              <td>EM-I</td>
+              <td rowspan="2">
+                EM (A1) <br />
+                BXE (A2)
+              </td>
+            </tr>
+            <tr>
+              <td>9:45 - 10:45</td>
+              <td>CHEM</td>
+              <td>EM-I</td>
+              <td>SME</td>
+            </tr>
+            <tr class="active-row">
+              <td>10:45 - 11:00</td>
+              <td colspan="6">SHORT RECESS</td>
+            </tr>
+            <tr>
+              <td>11:00 - 12:00</td>
+              <td>CHEM</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+              <td>CHEM</td>
+              <td rowspan="2">
+                EM (A1) <br />
+                BXE (A2)
+              </td>
+            </tr>
+            <tr>
+              <td>12:00 - 1:00</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+            </tr>
+            <tr class="active-row">
+              <td>1:00 - 1:45</td>
+              <td colspan="6">LONG RECESS</td>
+            </tr>
+            <tr>
+              <td>1:45 - 2:45</td>
+              <td>SME</td>
+              <td>BXE</td>
+              <td>BXE</td>
+              <td>CHEM</td>
+              <td>BXE</td>
+              <td rowspan="2"></td>
+            </tr>
+            <tr>
+              <td>2:45 - 3:45</td>
+              <td>SME</td>
+              <td>CHEM</td>
+              <td>SME</td>
+              <td>AC</td>
+              <td>BXE</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="db tabdet">
+        <h2>Div A SEM 4</h2>
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>TIME/DAY</th>
+              <th>MONDAY</th>
+              <th>TUESDAY</th>
+              <th>WEDNESDAY</th>
+              <th>THURSDAY</th>
+              <th>FRIDAY</th>
+              <th>Saturday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:45 - 9:45</td>
+              <td>SME</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+              <td rowspan="2">
+                EM (B1) <br />
+                BXE (B2)
+              </td>
+              <td>BXE</td>
+              <td rowspan="2">
+                BXE (B) <br />
+                EM (B2)
+              </td>
+            </tr>
+            <tr>
+              <td>9:45 - 10:45</td>
+              <td>CHEM</td>
+              <td>CHEM</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+            </tr>
+            <tr class="active-row">
+              <td>10:45 - 11:00</td>
+              <td colspan="6">SHORT RECESS</td>
+            </tr>
+            <tr>
+              <td>11:00 - 12:00</td>
+              <td rowspan="2">
+                BXE (B) <br />
+                EM (B2)
+              </td>
+              <td>EM-I</td>
+              <td>CHEM</td>
+              <td>CHEM</td>
+              <td>EM-I</td>
+              <td rowspan="2">
+                EM (B1) <br />
+                BXE (B2)
+              </td>
+            </tr>
+            <tr>
+              <td>12:00 - 1:00</td>
+              <td>EM-I</td>
+              <td>EM-I</td>
+              <td>SME</td>
+              <td>EM-I</td>
+            </tr>
+            <tr class="active-row">
+              <td>1:00 - 1:45</td>
+              <td colspan="6">LONG RECESS</td>
+            </tr>
+            <tr>
+              <td>1:45 - 2:45</td>
+              <td>EM-I</td>
+              <td>SME</td>
+              <td>SME</td>
+              <td>EM-I</td>
+              <td>AC</td>
+              <td rowspan="2"></td>
+            </tr>
+            <tr>
+              <td>2:45 - 3:45</td>
+              <td>EM-I</td>
+              <td>BXE</td>
+              <td>BXE</td>
+              <td>BXE</td>
+              <td>SME</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="dc tabdet">
+        <h2>Div C SEM 4</h2>
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>TIME/DAY</th>
+              <th>MONDAY</th>
+              <th>TUESDAY</th>
+              <th>WEDNESDAY</th>
+              <th>THURSDAY</th>
+              <th>FRIDAY</th>
+              <th>Saturday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:45 - 9:45</td>
+              <td rowspan="2">
+                BEE (C1) <br />
+                PHY (C2)
+              </td>
+              <td rowspan="2">
+                PHY (C1) <br />
+                BEE (C2)
+              </td>
+              <td>PPS</td>
+              <td>EM-I</td>
+              <td>PPS</td>
+              <td rowspan="2"></td>
+            </tr>
+            <tr>
+              <td>9:45 - 10:45</td>
+              <td>PHY</td>
+              <td>SME</td>
+              <td>EM-I</td>
+            </tr>
+            <tr class="active-row">
+              <td>10:45 - 11:00</td>
+              <td colspan="6">SHORT RECESS</td>
+            </tr>
+            <tr>
+              <td>11:00 - 12:00</td>
+              <td>EM-I</td>
+              <td>SME</td>
+              <td>PHY</td>
+              <td>PHY</td>
+              <td>BEE</td>
+              <td rowspan="2">
+                BEE (C1) <br />
+                BEE (C2)
+              </td>
+            </tr>
+            <tr class="active-row">
+              <td>12:00 - 1:00</td>
+              <td colspan="5">LONG RECESS</td>
+            </tr>
+            <tr>
+              <td>1:00 - 1:45</td>
+              <td>SME</td>
+              <td>EM-I</td>
+              <td>BEE</td>
+              <td>BEE</td>
+              <td>SME</td>
+              <td rowspan="3"></td>
+            </tr>
+            <tr>
+              <td>1:45 - 2:45</td>
+              <td>PPS</td>
+              <td>PPS</td>
+              <td>SME</td>
+              <td>EM-I</td>
+              <td rowspan="2">
+                BEE (C1) <br />
+                BEE (C2)
+              </td>
+            </tr>
+            <tr>
+              <td>2:45 - 3:45</td>
+              <td>AC</td>
+              <td>BEE</td>
+              <td>EM 1</td>
+              <td>PPS</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="dd tabdet">
+        <h2>Div D SEM 4</h2>
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th>TIME/DAY</th>
+              <th>MONDAY</th>
+              <th>TUESDAY</th>
+              <th>WEDNESDAY</th>
+              <th>THURSDAY</th>
+              <th>FRIDAY</th>
+              <th>Saturday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:45 - 9:45</td>
+              <td>SME</td>
+              <td>EM-I</td>
+              <td>PHY</td>
+              <td>SME</td>
+              <td rowspan="2">
+                BEE (D1) <br />
+                PHY (D2)
+              </td>
+              <td rowspan="2">
+                BEE (D1) <br />
+                BEE (D2)
+              </td>
+            </tr>
+            <tr>
+              <td>9:45 - 10:45</td>
+              <td>PPS</td>
+              <td>SME</td>
+              <td>BEE</td>
+              <td>PHY</td>
+            </tr>
+            <tr class="active-row">
+              <td>10:45 - 11:00</td>
+              <td colspan="6">SHORT RECESS</td>
+            </tr>
+            <tr>
+              <td>11:00 - 12:00</td>
+              <td rowspan="2">
+                BEE (D1) <br />
+                PHY (D2)
+              </td>
+              <td>BEE</td>
+              <td>EM1</td>
+              <td>EM1</td>
+              <td>SME</td>
+            </tr>
+            <tr>
+              <td>12:00 - 1:00</td>
+              <td>PHY</td>
+              <td colspan="4" class="active-row">LONG RECESS</td>
+            </tr>
+            <tr>
+              <td>1:00 - 1:45</td>
+              <td colspan="2" class="active-row">LONG RECESS</td>
+              <td>SME</td>
+              <td>PPS</td>
+              <td>PPS</td>
+            </tr>
+            <tr>
+              <td>1:45 - 2:45</td>
+              <td>EM-I</td>
+              <td>BEE</td>
+              <td>EM-I</td>
+              <td rowspan="2">
+                BEE (D1) <br />
+                BEE (D2)
+              </td>
+              <td>EM-I</td>
+            </tr>
+            <tr>
+              <td>2:45 - 3:45</td>
+              <td>BEE</td>
+              <td>PPS</td>
+              <td>PPS</td>
+              <td>AC</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#tt-select-menu").change(function () {
+          var name = $("#tt-select-menu").val();
+          $(".tabdata").hide();
+
+          $(".tabdet").hide();
+          $("." + name).show();
+        });
+      });
+    </script>
+  </body>
+</html>

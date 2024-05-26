@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="icon" href="../images/keystone_logo.webp" type="image/jpeg" />
+
+    <title>Keystone School of Engineering</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <inn-header></inn-header>
+    </header>
+
+    <div class="notices">
+      <div class="noticestitle">
+        <h2>Examination Circulars</h2>
+      </div>
+
+      <div class="noticesBox" id="noticesBox">
+        <div class="noticesbtndiv1">
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1IobKLef1LVKmgP8S1mzCmmC0U0_w-2tJ/view"
+              target="_blank"
+              style="color: var(--title-color)"
+            >
+              Circular Exam Form extend Date
+            </a>
+          </button>
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1PmHxqrW67hET6XLbqt9mnQYIeQY9IEg2/view?usp=drive_link"
+              style="color: var(--title-color)"
+              target="_blank"
+            >
+              Circular Insem Timetable 28-02-2024
+            </a>
+          </button>
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1UByfO_JcQxK1PYv4pfntKAfv_beg2aOB/view?usp=drive_link"
+              target="_blank"
+              style="color: var(--title-color)"
+            >
+              Circular No 14
+            </a>
+          </button>
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1P5bsGPbgUlDgkwTrK5RaxXrts3Nz5jYl/view?usp=drive_link"
+              target="_blank"
+              style="color: var(--title-color)"
+            >
+              Exam S and T 525 02 April 2024_02042024
+            </a>
+          </button>
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1p6ytFbXtOjfgz_BrE6C1qaC0q4b8osGZ/view?usp=drive_link"
+              target="_blank"
+              style="color: var(--title-color)"
+            >
+              Exam Schedule PR, OR, TW
+            </a>
+          </button>
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1bTLBho_kc3LBT7zDFvwmqi6f6PjIDQAZ/view?usp=drive_link"
+              target="_blank"
+              style="color: var(--title-color)"
+            >
+              Regarding Appointment of S.S and Squad
+            </a>
+          </button>
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1-rXETub4NnUElUEH9eTtSvRttwuveSP6/view?usp=drive_link"
+              target="_blank"
+              style="color: var(--title-color)"
+            >
+              zoom meeting 581
+            </a>
+          </button>
+        </div>
+        <div id="noticesdiv"></div>
+      </div>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+    <script>
+      function examClear() {
+        document.getElementById("noticesdiv").innerHTML = " ";
+      }
+      function Exam_Form_Notice() {
+        document.getElementById("noticesdiv").innerHTML = `
+        <iframe
+          src="https://drive.google.com/file/d/1Wf3-LHi9de3aiUmyhLyqr8tA2TTiTF8a/preview#toolbar=0"
+          allow="autoplay"
+          width="100%"
+          height="100%"
+          class="syllembed"
+        >
+        </iframe>
+  `;
+      }
+      function Backlog_Notice() {
+        document.getElementById("noticesdiv").innerHTML = `
+        <iframe
+          src="https://drive.google.com/file/d/1eYzoiNfuwBMpiYCIoH9tXHzkFGe3fTko/preview#toolbar=0"
+          allow="autoplay"
+          width="100%"
+          height="100%"
+          class="syllembed"
+        >
+        </iframe>
+  `;
+      }
+      function Photocopy_Revolution_Form() {
+        document.getElementById("noticesdiv").innerHTML = `
+        <iframe
+          src="https://drive.google.com/file/d/1Wa_QilA60rQE7XR18G5zPXYrNAgibLMb/preview#toolbar=0"
+          allow="autoplay"
+          width="100%"
+          height="100%"
+          class="syllembed"
+        >
+        </iframe>
+  `;
+      }
+    </script>
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>

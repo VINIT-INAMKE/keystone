@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="icon" href="./images/keystone-fav.jpg" type="image/jpeg" />
+
+    <title>Keystone School of Engineering</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <oute-header></oute-header>
+    </header>
+
+    <div class="contactUs">
+      <div class="title">
+        <h2>Get In Touch With Us</h2>
+      </div>
+      <div class="contactBox">
+        <div class="contact form">
+          <h3>Send us your queries</h3>
+          <form name="Contact_Us" netlify>
+            <!-- action="https://api.web3forms.com/submit" method="POST" -->
+            <div class="formBox">
+              <!-- <input
+                type="hidden"
+                name="access_key"
+                value="7d0aaf35-0401-48b1-bef5-ea1352ebd15e"
+              /> -->
+              <div class="row50">
+                <div class="inputBox">
+                  <span>First Name</span>
+                  <input
+                    type="text"
+                    name="first_name"
+                    placeholder="Vinit"
+                    required
+                  />
+                </div>
+                <div class="inputBox">
+                  <span>Last Name</span>
+                  <input
+                    type="text"
+                    name="last_name"
+                    placeholder="Inamke"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="row50">
+                <div class="inputBox">
+                  <span>Email Address</span>
+                  <input
+                    type="email"
+                    name="email_id"
+                    placeholder="example@mail.com"
+                    required
+                  />
+                </div>
+                <div class="inputBox">
+                  <span>Contact Number</span>
+                  <input
+                    type="text"
+                    name="contact_number"
+                    placeholder="9876543210"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="row100">
+                <div class="inputBox">
+                  <span>Query</span>
+                  <textarea
+                    name="query"
+                    placeholder="Write your query here."
+                  ></textarea>
+                </div>
+              </div>
+              <div class="row100">
+                <div class="inputBox" id="sub-cont">
+                  <input type="submit" id="sub-btn" value="Submit the Query" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="contact info">
+          <h3>Contact Info</h3>
+          <div class="infoBox">
+            <div>
+              <span><i class="ri-map-pin-line"></i></span>
+              <p>
+                Keystone School Of Engineering, <br />
+                Near Handewadi Chowk, <br />
+                Urali Devachi, Shewalewadi,<br />
+                Pune – 412308
+              </p>
+            </div>
+            <div>
+              <span><i class="ri-mail-line"></i></span>
+              <a href="mailto:vinitinamkekse@gmail.com"
+                >vinitinamkekse@gmail.com</a
+              >
+            </div>
+            <div>
+              <span><i class="ri-phone-line"></i></span>
+              <a href="tel:+917709262997">+91 7709262997</a>
+            </div>
+            <ul class="sci">
+              <li>
+                <a href=""><i class="ri-facebook-fill"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="ri-instagram-line"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="ri-linkedin-fill"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.8092209165493!2d73.93491957603547!3d18.446969282632434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e999215c9f2b%3A0xa9b93c99a6184c98!2sKeystone%20School%20of%20Engineering!5e0!3m2!1sen!2sin!4v1713123877881!5m2!1sen!2sin"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/components.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

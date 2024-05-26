@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="icon" href="../images/keystone_logo.webp" type="image/jpeg" />
+
+    <title>Keystone School of Engineering</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <inn-header></inn-header>
+    </header>
+
+    <div class="notices">
+      <div class="noticestitle">
+        <h2>Examination Timetables</h2>
+      </div>
+
+      <div class="noticesBox" id="noticesBox">
+        <div class="noticestitle1">
+          <h3>Endsem</h3>
+        </div>
+        <div class="noticesbtndiv1">
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1UzLIRXk5PWPv0y-SOynompqGMdRcdtfu/view?usp=drive_link"
+              target="_blank"
+              style="color: var(--title-color)"
+            >
+              B.E. (2019) ENDSEM FOR MAY-2024
+            </a>
+          </button>
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1-hRmEdPwJXXirIVRtIfMKv4GO03oL2Ur/view?usp=drive_link"
+              style="color: var(--title-color)"
+              target="_blank"
+            >
+              F.E. (2019) ENDSEM FOR MAY-2024
+            </a>
+          </button>
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1zz81M42cHtr0D4VkRZZMu5QsQcylinfc/view?usp=drive_link"
+              target="_blank"
+              style="color: var(--title-color)"
+            >
+              S.E._2019-PAT. TIMETABLE FOR MAY-2024
+            </a>
+          </button>
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1jG9N09nn4U3AXob8T_TqrKlvYDQaEp7X/view?usp=drive_link"
+              target="_blank"
+              style="color: var(--title-color)"
+            >
+              T.E. 2019 Pattern Timetable FOR MAY-2024
+            </a>
+          </button>
+        </div>
+
+        <div class="noticestitle1">
+          <h3>Insem</h3>
+        </div>
+        <div class="noticesbtndiv1">
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1wIP8LgKaU1-V_-82GDKFHRfSTHROw26W/view?usp=drive_link"
+              style="color: var(--title-color)"
+              target="_blank"
+            >
+              B.E. (2019 PATTERN) MARCH-APRIL-2024
+            </a>
+          </button>
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1l2-90oTA3ybicn7rcdU90WERiIXA2Poy/view?usp=drive_link"
+              target="_blank"
+              style="color: var(--title-color)"
+            >
+              F.E. (2019 PATTERN) MARCH-APRIL-2024
+            </a>
+          </button>
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1gf1Sv7R5GrM4N82_BmOWI4i47i7kEFX1/view?usp=drive_link"
+              target="_blank"
+              style="color: var(--title-color)"
+            >
+              S.E. (2019 PATTERN) MARCH-APRIL-2024
+            </a>
+          </button>
+          <button class="noticesButton">
+            <a
+              href="https://drive.google.com/file/d/1CPsiVBSbg8VeVFtOon9rsxeTSn6BuoC-/view?usp=drive_link"
+              target="_blank"
+              style="color: var(--title-color)"
+            >
+              T.E. (2019 PATTERN) MARCH-APRIL-2024
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+    <script>
+      function examClear() {
+        document.getElementById("noticesdiv").innerHTML = " ";
+      }
+      function Exam_Form_Notice() {
+        document.getElementById("noticesdiv").innerHTML = `
+        <iframe
+          src="https://drive.google.com/file/d/1Wf3-LHi9de3aiUmyhLyqr8tA2TTiTF8a/preview#toolbar=0"
+          allow="autoplay"
+          width="100%"
+          height="100%"
+          class="syllembed"
+        >
+        </iframe>
+  `;
+      }
+      function Backlog_Notice() {
+        document.getElementById("noticesdiv").innerHTML = `
+        <iframe
+          src="https://drive.google.com/file/d/1eYzoiNfuwBMpiYCIoH9tXHzkFGe3fTko/preview#toolbar=0"
+          allow="autoplay"
+          width="100%"
+          height="100%"
+          class="syllembed"
+        >
+        </iframe>
+  `;
+      }
+      function Photocopy_Revolution_Form() {
+        document.getElementById("noticesdiv").innerHTML = `
+        <iframe
+          src="https://drive.google.com/file/d/1Wa_QilA60rQE7XR18G5zPXYrNAgibLMb/preview#toolbar=0"
+          allow="autoplay"
+          width="100%"
+          height="100%"
+          class="syllembed"
+        >
+        </iframe>
+  `;
+      }
+    </script>
+    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
