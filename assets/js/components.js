@@ -1,7 +1,6 @@
 class OutHeader extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = `
-    <nav class="nav container">
+    this.innerHTML = ` <nav class="nav container">
       <div class="nav__data">
         <a href="/" class="nav__logo">
           <img src="./images/kslogo.png" alt="" />
@@ -25,8 +24,8 @@ class OutHeader extends HTMLElement {
               <div class="dropdown__content">
                 <div class="dropdown__group">
                   <!--<div class="dropdown__icon">
-                          <i class="ri-flashlight-line"></i>
-                          </div>-->
+                            <i class="ri-flashlight-line"></i>
+                            </div>-->
 
                   <span class="dropdown__title">About Us</span>
 
@@ -39,20 +38,20 @@ class OutHeader extends HTMLElement {
                       >
                     </li>
 
-                    <li>
-                      <a
-                        href="./about/principalsdesk.html"
-                        class="dropdown__link"
-                      >
-                        From the Desk Of Principal
-                      </a>
-                    </li>
+                    
                     <li>
                       <a
                         href="./about/directordesk.html"
                         class="dropdown__link"
                       >
                         From the Desk Of Directors
+                      </a>
+                    </li> <li>
+                      <a
+                        href="./about/principalsdesk.html"
+                        class="dropdown__link"
+                      >
+                        From the Desk Of Principal
                       </a>
                     </li>
                     <li>
@@ -68,8 +67,6 @@ class OutHeader extends HTMLElement {
                   </ul>
                 </div>
                 <div class="dropdown__group">
-                 
-
                   <span class="dropdown__title">Examination Cell</span>
 
                   <ul class="dropdown__list">
@@ -184,10 +181,10 @@ class OutHeader extends HTMLElement {
                       >
                     </li>
                     <!-- <li>
-                    <a href="./admission/notice.html" class="dropdown__link"
-                      >Admission Notice</a
-                    >
-                  </li>-->
+                      <a href="./admission/notice.html" class="dropdown__link"
+                        >Admission Notice</a
+                      >
+                    </li>-->
                     <li>
                       <a href="./admission/enquiry.html" class="dropdown__link"
                         >Admission Enquiry</a
@@ -198,92 +195,6 @@ class OutHeader extends HTMLElement {
               </div>
             </div>
           </li>
-          <li class="dropdown__item">
-            <div class="nav__link dropdown__button">
-              Placements <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-            </div>
-
-            <div class="dropdown__container">
-              <div class="dropdown__content">
-                <div class="dropdown__group">
-                  <div class="dropdown__icon">
-                    <i class="ri-code-line"></i>
-                  </div>
-
-                  <span class="dropdown__title"
-                    >Training And Placements Department</span
-                  >
-
-                  <ul class="dropdown__list">
-                    <li>
-                      <a href="./t&p/about.html" class="dropdown__link"
-                        >About Department</a
-                      >
-                    </li>
-                    <li>
-                      <a href="./t&p/dean.html" class="dropdown__link"
-                        >Dean Desk</a
-                      >
-                    </li>
-                    <li>
-                      <a href="./t&p/coordinators.html" class="dropdown__link"
-                        >Co-ordinators</a
-                      >
-                    </li>
-                    <li>
-                      <a href="./t&p/preplacement.html" class="dropdown__link"
-                        >Preplacement Training Gallery</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-
-          <li class="dropdown__item">
-            <div class="nav__link dropdown__button">
-              Industry Connect
-              <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-            </div>
-
-            <div class="dropdown__container">
-              <div class="dropdown__content">
-                <div class="dropdown__group">
-                  <div class="dropdown__icon">
-                    <i class="ri-code-line"></i>
-                  </div>
-
-                  <span class="dropdown__title"> Industry Connect </span>
-
-                  <ul class="dropdown__list">
-                    <li>
-                      <a href="./industryconnect/mou.html" class="dropdown__link"> MOU </a>
-                    </li>
-                    <li>
-                      <a
-                        href="./industryconnect/industryvisit.html"
-                        class="dropdown__link"
-                      >
-                        Industrial Visit
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="./industryconnect/internship.html"
-                        class="dropdown__link"
-                        >Internships</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="dropdown__link">Training</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          <!--=============== DROPDOWN 3 ===============-->
           <li class="dropdown__item">
             <div class="nav__link dropdown__button">
               Departments <i class="ri-arrow-down-s-line dropdown__arrow"></i>
@@ -593,33 +504,127 @@ class OutHeader extends HTMLElement {
                       </a>
                     </li>
                     <!-- <li>
-                                              <a href="./AIDS/timetables.html" class="dropdown__link">Timetables</a>
-                                          </li>
-                                          <li>
-                                              <a href="./AIDS/association.html" class="dropdown__link">Student Associations</a>
-                                          </li>
-                                          <li>
-                                              <a href="./AIDS/studentclubs.html" class="dropdown__link">Student Clubs</a>
-                                          </li>
-                                          <li>
-                                              <a href="./AIDS/results.html" class="dropdown__link">
-                                                  Academic Toppers</a>
-                                          </li> -->
+                                                <a href="./AIDS/timetables.html" class="dropdown__link">Timetables</a>
+                                            </li>
+                                            <li>
+                                                <a href="./AIDS/association.html" class="dropdown__link">Student Associations</a>
+                                            </li>
+                                            <li>
+                                                <a href="./AIDS/studentclubs.html" class="dropdown__link">Student Clubs</a>
+                                            </li>
+                                            <li>
+                                                <a href="./AIDS/results.html" class="dropdown__link">
+                                                    Academic Toppers</a>
+                                            </li> -->
                   </ul>
                 </div>
               </div>
             </div>
           </li>
+          <li class="dropdown__item">
+            <div class="nav__link dropdown__button">
+              Placements <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <div class="dropdown__container">
+              <div class="dropdown__content">
+                <div class="dropdown__group">
+                  <div class="dropdown__icon">
+                    <i class="ri-code-line"></i>
+                  </div>
+
+                  <span class="dropdown__title"
+                    >Training And Placements Department</span
+                  >
+
+                  <ul class="dropdown__list">
+                    <li>
+                      <a href="./t&p/about.html" class="dropdown__link"
+                        >About Department</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./t&p/dean.html" class="dropdown__link"
+                        >Dean Desk</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./t&p/coordinators.html" class="dropdown__link"
+                        >Co-ordinators</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./t&p/preplacement.html" class="dropdown__link"
+                        >Preplacement Training Gallery</a
+                      >
+                    </li> 
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="dropdown__item">
+            <div class="nav__link dropdown__button">
+              Industry Connect
+              <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <div class="dropdown__container">
+              <div class="dropdown__content">
+                <div class="dropdown__group">
+                  <div class="dropdown__icon">
+                    <i class="ri-code-line"></i>
+                  </div>
+
+                  <span class="dropdown__title"> Industry Connect </span>
+
+                  <ul class="dropdown__list">
+                    <li>
+                      <a
+                        href="./industryconnect/mou.html"
+                        class="dropdown__link"
+                      >
+                        MOU
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="./industryconnect/industryvisit.html"
+                        class="dropdown__link"
+                      >
+                        Industrial Visit
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="./industryconnect/internship.html"
+                        class="dropdown__link"
+                        >Internships</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Training</a>
+                    </li><li>
+                      <a href="./industryconnect/keyplacements.html" class="dropdown__link"
+                        >Key Placements</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!--=============== DROPDOWN 3 ===============-->
         </ul>
       </div>
-    </nav>
-    `;
+    </nav>`;
   }
 }
 class InHeader extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = `
-    <nav class="nav container">
+    this.innerHTML = `<nav class="nav container">
       <div class="nav__data">
         <a href="/" class="nav__logo">
           <img src="../images/kslogo.png" alt="" />
@@ -643,8 +648,8 @@ class InHeader extends HTMLElement {
               <div class="dropdown__content">
                 <div class="dropdown__group">
                   <!--<div class="dropdown__icon">
-                                <i class="ri-flashlight-line"></i>
-                                </div>-->
+                                  <i class="ri-flashlight-line"></i>
+                                  </div>-->
 
                   <span class="dropdown__title">About Us</span>
 
@@ -656,15 +661,7 @@ class InHeader extends HTMLElement {
                         >About KSE</a
                       >
                     </li>
-
-                    <li>
-                      <a
-                        href="../about/principalsdesk.html"
-                        class="dropdown__link"
-                        >From the Desk Of Principal</a
-                      >
-                    </li>
-                    <li>
+ <li>
                       <a
                         href="../about/directordesk.html"
                         class="dropdown__link"
@@ -672,6 +669,14 @@ class InHeader extends HTMLElement {
                         From the Desk Of Directors
                       </a>
                     </li>
+                    <li>
+                      <a
+                        href="../about/principalsdesk.html"
+                        class="dropdown__link"
+                        >From the Desk Of Principal</a
+                      >
+                    </li>
+                   
                     <li>
                       <a href="../about/keypersons.html" class="dropdown__link"
                         >Management</a
@@ -685,8 +690,6 @@ class InHeader extends HTMLElement {
                   </ul>
                 </div>
                 <div class="dropdown__group">
-                  
-
                   <span class="dropdown__title">Examination Cell</span>
 
                   <ul class="dropdown__list">
@@ -801,10 +804,10 @@ class InHeader extends HTMLElement {
                       >
                     </li>
                     <!-- <li>
-                      <a href="../admission/notice.html" class="dropdown__link"
-                        >Admission Notice</a
-                      >
-                    </li> -->
+                        <a href="../admission/notice.html" class="dropdown__link"
+                          >Admission Notice</a
+                        >
+                      </li> -->
                     <li>
                       <a
                         href="../admission/enquiry.html"
@@ -818,101 +821,6 @@ class InHeader extends HTMLElement {
               </div>
             </div>
           </li>
-          <li class="dropdown__item">
-            <div class="nav__link dropdown__button">
-              Placements <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-            </div>
-
-            <div class="dropdown__container">
-              <div class="dropdown__content">
-                <div class="dropdown__group">
-                  <div class="dropdown__icon">
-                    <i class="ri-code-line"></i>
-                  </div>
-
-                  <span class="dropdown__title"
-                    >Training And Placements Department</span
-                  >
-
-                  <ul class="dropdown__list">
-                    <li>
-                      <a href="../t&p/about.html" class="dropdown__link"
-                        >About Department</a
-                      >
-                    </li>
-                    <li>
-                      <a href="../t&p/dean.html" class="dropdown__link"
-                        >Dean Desk</a
-                      >
-                    </li>
-                    <li>
-                      <a href="../t&p/coordinators.html" class="dropdown__link"
-                        >Co-ordinators</a
-                      >
-                    </li>
-                    <li>
-                      <a href="../t&p/preplacement.html" class="dropdown__link"
-                        >Preplacement Training Gallery</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          <!-- <li class="dropdown__item">
-            <div class="nav__link dropdown__button">
-              Examination<i class="ri-arrow-down-s-line dropdown__arrow"></i>
-            </div>
-
-            <div class="dropdown__container">
-              <div class="dropdown__content"></div>
-            </div>
-          </li> -->
-          <li class="dropdown__item">
-            <div class="nav__link dropdown__button">
-              Industry Connect
-              <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-            </div>
-
-            <div class="dropdown__container">
-              <div class="dropdown__content">
-                <div class="dropdown__group">
-                  <div class="dropdown__icon">
-                    <i class="ri-code-line"></i>
-                  </div>
-
-                  <span class="dropdown__title"> Industry Connect </span>
-
-                  <ul class="dropdown__list">
-                    <li>
-                      <a href="../industryconnect/mou.html" class="dropdown__link"> MOU </a>
-                    </li>
-                    <li>
-                      <a
-                        href="../industryconnect/industryvisit.html"
-                        class="dropdown__link"
-                      >
-                        Industrial Visit
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="../industryconnect/internship.html"
-                        class="dropdown__link"
-                      >
-                        Internships
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="dropdown__link">Training</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          <!--=============== DROPDOWN 3 ===============-->
           <li class="dropdown__item">
             <div class="nav__link dropdown__button">
               Departments <i class="ri-arrow-down-s-line dropdown__arrow"></i>
@@ -1224,27 +1132,132 @@ class InHeader extends HTMLElement {
                       </a>
                     </li>
                     <!-- <li>
-                                                      <a href="../AIDS/timetables.html" class="dropdown__link">Timetables</a>
-                                                  </li>
-                                                  <li>
-                                                      <a href="../AIDS/association.html" class="dropdown__link">Student Associations</a>
-                                                  </li>
-                                                  <li>
-                                                      <a href="../AIDS/studentclubs.html" class="dropdown__link">Student Clubs</a>
-                                                  </li>
-                                                  <li>
-                                                      <a href="../AIDS/results.html" class="dropdown__link">
-                                                          Academic Toppers</a>
-                                                  </li> -->
+                                                        <a href="../AIDS/timetables.html" class="dropdown__link">Timetables</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="../AIDS/association.html" class="dropdown__link">Student Associations</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="../AIDS/studentclubs.html" class="dropdown__link">Student Clubs</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="../AIDS/results.html" class="dropdown__link">
+                                                            Academic Toppers</a>
+                                                    </li> -->
                   </ul>
                 </div>
               </div>
             </div>
           </li>
+          <li class="dropdown__item">
+            <div class="nav__link dropdown__button">
+              Placements <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <div class="dropdown__container">
+              <div class="dropdown__content">
+                <div class="dropdown__group">
+                  <div class="dropdown__icon">
+                    <i class="ri-code-line"></i>
+                  </div>
+
+                  <span class="dropdown__title"
+                    >Training And Placements Department</span
+                  >
+
+                  <ul class="dropdown__list">
+                    <li>
+                      <a href="../t&p/about.html" class="dropdown__link"
+                        >About Department</a
+                      >
+                    </li>
+                    <li>
+                      <a href="../t&p/dean.html" class="dropdown__link"
+                        >Dean Desk</a
+                      >
+                    </li>
+                    <li>
+                      <a href="../t&p/coordinators.html" class="dropdown__link"
+                        >Co-ordinators</a
+                      >
+                    </li>
+                    <li>
+                      <a href="../t&p/preplacement.html" class="dropdown__link"
+                        >Preplacement Training Gallery</a
+                      >
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- <li class="dropdown__item">
+              <div class="nav__link dropdown__button">
+                Examination<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+  
+              <div class="dropdown__container">
+                <div class="dropdown__content"></div>
+              </div>
+            </li> -->
+          <li class="dropdown__item">
+            <div class="nav__link dropdown__button">
+              Industry Connect
+              <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <div class="dropdown__container">
+              <div class="dropdown__content">
+                <div class="dropdown__group">
+                  <div class="dropdown__icon">
+                    <i class="ri-code-line"></i>
+                  </div>
+
+                  <span class="dropdown__title"> Industry Connect </span>
+
+                  <ul class="dropdown__list">
+                    <li>
+                      <a
+                        href="../industryconnect/mou.html"
+                        class="dropdown__link"
+                      >
+                        MOU
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../industryconnect/industryvisit.html"
+                        class="dropdown__link"
+                      >
+                        Industrial Visit
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="../industryconnect/internship.html"
+                        class="dropdown__link"
+                      >
+                        Internships
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__link">Training</a>
+                    </li>
+                    <li>
+                      <a href="../industryconnect/keyplacements.html" class="dropdown__link"
+                        >Key Placements</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!--=============== DROPDOWN 3 ===============-->
         </ul>
       </div>
-    </nav>
-    `;
+    </nav>`;
   }
 }
 
@@ -1269,7 +1282,7 @@ class InFooter extends HTMLElement {
             <a href="../about/collegeprofile.html">Vision Mission</a>
           </li>
           <li>
-            <a href="#">Recognition</a>
+            <a href="../about/recognition.html">Recognition</a>
           </li>
         </ul>
       </li>
@@ -1371,7 +1384,7 @@ class OutFooter extends HTMLElement {
               <a href="./about/collegeprofile.html">Vision Mission</a>
             </li>
             <li>
-              <a href="#">Recognition</a>
+              <a href="./about/recognition.html">Recognition</a>
             </li>
           </ul>
         </li>

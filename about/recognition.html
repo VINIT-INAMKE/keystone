@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../assets/css/home.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+
+    <link rel="icon" href="../images/keystone-fav.jpg" type="image/jpeg" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css" />
+    <title>Keystone School of Engineering</title>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <header class="header">
+      <inn-header></inn-header>
+    </header>
+    <div class="gallery" style="margin-top: 5rem">
+      <div class="titlediv">
+        <h1
+          id="prog-title"
+          style="
+            border: 3px solid var(--title-color);
+            padding: 5px;
+            border-radius: 20px;
+            display: inline;
+          "
+        >
+          Recognition Gallery
+        </h1>
+      </div>
+
+      <div class="galimage-container"></div>
+      <!-- <ul class="controls">
+        <button class="buttons active" data-filter="1">1</button>
+
+      </ul> -->
+    </div>
+    <inn-footer></inn-footer>
+
+    <!-- Swiper JS -->
+    <script src="../assets/js/components.js"></script>
+    <!-- Swiper JS -->
+    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".buttons[data-filter='1']").addClass("active"); // Add this line to make the filter 1 active by default
+        $(".galimage").not(".1").hide();
+        $(".buttons").click(function () {
+          $(this).addClass("active").siblings().removeClass("active");
+
+          var filter = $(this).attr("data-filter");
+
+          if (filter == "all") {
+            $(".galimage").show(400);
+          } else {
+            $(".galimage")
+              .not("." + filter)
+              .hide(200);
+            $(".galimage")
+              .filter("." + filter)
+              .show(400);
+          }
+        });
+
+        $(".gallery").magnificPopup({
+          delegate: "a",
+          type: "image",
+          gallery: {
+            enabled: true,
+          },
+          callbacks: {
+            open: function () {
+              var altText = this.currItem.el.find("img").attr("alt");
+
+              this.content.find(".mfp-title").text(altText);
+            },
+          },
+        });
+      });
+    </script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var baseUrl = "./recognition/";
+      var className = "galimage";
+
+      var htmlCode = "";
+
+      for (var i = 1; i <= 7; i++) {
+        var imageUrl = baseUrl + i + ".jpg";
+        var currentClassName = className + " " + Math.ceil(i / 10);
+        htmlCode +=
+          '<a href="' + imageUrl + '" class="' + currentClassName + '">\n';
+        htmlCode += '  <img src="' + imageUrl + '" alt="" />\n';
+        htmlCode += "</a>\n";
+      }
+
+      document.querySelector(".galimage-container").innerHTML = htmlCode;
+    </script>
+
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
