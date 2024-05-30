@@ -583,10 +583,10 @@ class OutHeader extends HTMLElement {
                   <ul class="dropdown__list">
                     <li>
                       <a
-                        href="./industryconnect/mou.html"
+                        href="./industryconnect/industryassociation.html"
                         class="dropdown__link"
                       >
-                        MOU
+                        Industry Association
                       </a>
                     </li>
                     <li>
@@ -605,7 +605,7 @@ class OutHeader extends HTMLElement {
                       >
                     </li>
                     <li>
-                      <a href="#" class="dropdown__link">Training</a>
+                      <a href="./industryconnect/training.html" class="dropdown__link">Training</a>
                     </li><li>
                       <a href="./industryconnect/keyplacements.html" class="dropdown__link"
                         >Key Placements</a
@@ -1219,10 +1219,10 @@ class InHeader extends HTMLElement {
                   <ul class="dropdown__list">
                     <li>
                       <a
-                        href="../industryconnect/mou.html"
+                        href="../industryconnect/industryassociation.html"
                         class="dropdown__link"
                       >
-                        MOU
+                        Industry Association
                       </a>
                     </li>
                     <li>
@@ -1242,7 +1242,7 @@ class InHeader extends HTMLElement {
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="dropdown__link">Training</a>
+                      <a href="../industryconnect/training.html" class="dropdown__link">Training</a>
                     </li>
                     <li>
                       <a href="../industryconnect/keyplacements.html" class="dropdown__link"
@@ -1293,16 +1293,14 @@ class InFooter extends HTMLElement {
             <a href="../admission/brochure.html">Admission Brochure</a>
           </li>
           <li>
-            <a href="../admission/feestruct.html">Fee Structure</a>
+            <a href="../admission/feestructure.html">Fee Structure</a>
           </li>
           <li>
             <a href="../admission/procedure.html"
               >Admission Instruction and Procedure</a
             >
           </li>
-          <li>
-            <a href="../admission/notice.html">Notices</a>
-          </li>
+         
           <li>
           <a href="../admission/enquiry.html">Enquiry</a>
         </li>
@@ -1312,10 +1310,10 @@ class InFooter extends HTMLElement {
         <h2>Placement</h2>
         <ul class="footer-box">
           <li>
-            <a href="../index.html/#recruiters-div">Our Recruiters</a>
+            <a href="../industryconnect/industryassociation.html">Our Recruiters</a>
           </li>
           <li>
-            <a href="../t&p/preplacement.html">Placements</a>
+            <a href="../industryconnect/keyplacements.html">Placements</a>
           </li>
           <li>
             <a href="../t&p/preplacement.html">Training</a>
@@ -1328,17 +1326,15 @@ class InFooter extends HTMLElement {
       <li>
         <h2>Life At Keystone</h2>
         <ul class="footer-box">
-          <li>
-            <a href="#">Cultural Events</a>
-          </li>
-          <li>
-            <a href="#">Sports</a>
-          </li>
+        <li>
+              <a href="../studentscorner.html"> Students Corner</a>
+            </li>
+          
           <li>
             <a href="../dramaclub.html">Keystone Drama Club</a>
           </li>
           <li>
-            <a href="#"> NSS </a>
+            <a href="../nss.html"> NSS </a>
           </li>
         </ul>
       </li>
@@ -1395,16 +1391,14 @@ class OutFooter extends HTMLElement {
               <a href="./admission/brochure.html">Admission Brochure</a>
             </li>
             <li>
-              <a href="./admission/feestruct.html">Fee Structure</a>
+              <a href="./admission/feestructure.html">Fee Structure</a>
             </li>
             <li>
               <a href="./admission/procedure.html"
                 >Admission Instruction and Procedure</a
               >
             </li>
-            <li>
-              <a href="./admission/notice.html">Notices</a>
-            </li>
+            
             <li>
             <a href="./admission/enquiry.html">Enquiry</a>
           </li>
@@ -1414,10 +1408,10 @@ class OutFooter extends HTMLElement {
           <h2>Placement</h2>
           <ul class="footer-box">
             <li>
-              <a href="./index.html/#recruiters-div">Our Recruiters</a>
+              <a href="./industryconnect/industryassociation.html">Our Recruiters</a>
             </li>
             <li>
-              <a href="./t&p/preplacement.html">Placements</a>
+              <a href="./industryconnect/keyplacements.html">Placements</a>
             </li>
             <li>
               <a href="./t&p/preplacement.html">Training</a>
@@ -1431,16 +1425,14 @@ class OutFooter extends HTMLElement {
           <h2>Life At Keystone</h2>
           <ul class="footer-box">
             <li>
-              <a href="#">Cultural Events</a>
+              <a href="./studentscorner.html"> Students Corner</a>
             </li>
-            <li>
-              <a href="#">Sports</a>
-            </li>
+            
             <li>
               <a href="./dramaclub.html">Keystone Drama Club</a>
             </li>
             <li>
-              <a href="#"> NSS </a>
+              <a href="./nss.html"> NSS </a>
             </li>
           </ul>
         </li>
