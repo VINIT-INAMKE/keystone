@@ -179,6 +179,9 @@ function feClear() {
 function entcClear() {
   document.getElementById("entcsyllabus").innerHTML = " ";
 }
+function aidsClear() {
+  document.getElementById("aidssyllabus").innerHTML = " ";
+}
 function SE_Mechanical_Syllabus_2019() {
   document.getElementById("mechsyllabus").innerHTML = `
   <iframe
@@ -240,6 +243,39 @@ function TE_ENTC_Syllabus_2019() {
   document.getElementById("entcsyllabus").innerHTML = `
   <iframe
   src="https://drive.google.com/file/d/139r4tXPZJ5oPheMkKcmdGaJKza8-OfPE/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+  `;
+}
+function TE_AIDS_Syllabus_2019() {
+  document.getElementById("aidssyllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/19fvOrdWmYPiVYbV7938EO0azipYnxMbC/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+  `;
+}
+function SE_AIDS_Syllabus_2019() {
+  document.getElementById("aidssyllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/15vMydQvhCZBOENTEm-PqLl4invryTXmQ/preview#toolbar=0"
+  allow="autoplay"
+  width="100%"
+  height="100%"
+  class="syllembed"
+></iframe>
+  `;
+}
+function BE_AIDS_Syllabus_2019() {
+  document.getElementById("aidssyllabus").innerHTML = `
+  <iframe
+  src="https://drive.google.com/file/d/1bKiuu-RsgdOWC5v3VnGHzws6XmrHgwOC/preview#toolbar=0"
   allow="autoplay"
   width="100%"
   height="100%"

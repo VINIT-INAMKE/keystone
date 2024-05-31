@@ -41,7 +41,7 @@ class OutHeader extends HTMLElement {
                     
                     <li>
                       <a
-                        href="./about/directordesk.html"
+                        href="./about/directorsdesk.html"
                         class="dropdown__link"
                       >
                         From the Desk Of Directors
@@ -663,7 +663,7 @@ class InHeader extends HTMLElement {
                     </li>
  <li>
                       <a
-                        href="../about/directordesk.html"
+                        href="../about/directorsdesk.html"
                         class="dropdown__link"
                       >
                         From the Desk Of Directors
