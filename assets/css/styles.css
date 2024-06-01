@@ -130,9 +130,7 @@ a {
 
 .profile {
   background: var(--first-color-lighten);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
   padding: 30px 10px;
   border-radius: 10px;
 }
@@ -180,9 +178,7 @@ a {
 
 .why1 {
   background: var(--first-color-lighten);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
   padding: 30px 10px;
   border-radius: 10px;
 }
@@ -596,9 +592,6 @@ a {
   min-width: 400px;
   border-radius: 10px 10px 10px 10px;
   overflow: hidden;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .content-table thead tr {
@@ -809,9 +802,7 @@ a {
 
 .results-profile {
   background: var(--first-color-lighten);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
   padding: 30px 10px;
   border-radius: 10px;
 }
@@ -1240,9 +1231,7 @@ a {
 
 .syllabusBox {
   border-radius: 20px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
   padding: 40px;
   background: var(--first-color-lighten);
   height: auto;
@@ -1395,9 +1384,7 @@ a {
 
   padding: 5px;
   padding-top: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
   background-color: var(--body-color);
   overflow-y: auto;
 
@@ -1433,9 +1420,7 @@ a {
   /* Set maximum width for larger screens */
   padding: 5px;
   padding-top: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
   background-color: var(--first-color-lighten);
   overflow-y: auto;
   /* Enable vertical scrolling if needed */
@@ -1502,9 +1487,7 @@ a {
 .keypersonsBox {
   margin-top: 10px;
   border-radius: 20px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
   padding: 40px;
   background: var(--first-color-lighten);
   height: auto;
@@ -1899,9 +1882,7 @@ a {
 
 .procedureBox {
   border-radius: 20px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
   padding: 40px;
   background: var(--first-color-lighten);
   height: auto;
@@ -1991,9 +1972,7 @@ a {
 
 .noticesBox {
   border-radius: 20px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
   padding: 40px;
   background: var(--first-color-lighten);
   height: auto;
@@ -2166,9 +2145,7 @@ a {
 
 .brochureBox {
   border-radius: 20px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
   padding: 40px;
   background: var(--first-color-lighten);
   height: auto;

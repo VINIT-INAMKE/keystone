@@ -549,6 +549,11 @@ class OutHeader extends HTMLElement {
                       >
                     </li>
                     <li>
+                      <a href="./t&p/tpo.html" class="dropdown__link"
+                        >Training & Placements Officer Desk</a
+                      >
+                    </li>
+                    <li>
                       <a href="./t&p/coordinators.html" class="dropdown__link"
                         >Co-ordinators</a
                       >
@@ -1175,6 +1180,11 @@ class InHeader extends HTMLElement {
                     <li>
                       <a href="../t&p/dean.html" class="dropdown__link"
                         >Dean Desk</a
+                      >
+                    </li> 
+                    <li>
+                      <a href="../t&p/tpo.html" class="dropdown__link"
+                        >Training & Placements Officer Desk</a
                       >
                     </li>
                     <li>
