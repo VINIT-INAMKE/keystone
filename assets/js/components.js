@@ -558,6 +558,11 @@ class OutHeader extends HTMLElement {
                         >Preplacement Training Gallery</a
                       >
                     </li> 
+                    <li>
+                      <a href="./industryconnect/keyplacements.html" class="dropdown__link"
+                        >Key Placements</a
+                      >
+                    </li>
                     
                   </ul>
                 </div>
@@ -606,10 +611,6 @@ class OutHeader extends HTMLElement {
                     </li>
                     <li>
                       <a href="./industryconnect/training.html" class="dropdown__link">Training</a>
-                    </li><li>
-                      <a href="./industryconnect/keyplacements.html" class="dropdown__link"
-                        >Key Placements</a
-                      >
                     </li>
                   </ul>
                 </div>
@@ -1186,7 +1187,11 @@ class InHeader extends HTMLElement {
                         >Preplacement Training Gallery</a
                       >
                     </li>
-                    
+                    <li>
+                      <a href="../industryconnect/keyplacements.html" class="dropdown__link"
+                        >Key Placements</a
+                      >
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -1244,11 +1249,7 @@ class InHeader extends HTMLElement {
                     <li>
                       <a href="../industryconnect/training.html" class="dropdown__link">Training</a>
                     </li>
-                    <li>
-                      <a href="../industryconnect/keyplacements.html" class="dropdown__link"
-                        >Key Placements</a
-                      >
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
