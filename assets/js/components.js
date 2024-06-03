@@ -523,7 +523,7 @@ class OutHeader extends HTMLElement {
           </li>
           <li class="dropdown__item">
             <div class="nav__link dropdown__button">
-              Placements <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              Training And Placements <i class="ri-arrow-down-s-line dropdown__arrow"></i>
             </div>
 
             <div class="dropdown__container">
@@ -1157,7 +1157,7 @@ class InHeader extends HTMLElement {
           </li>
           <li class="dropdown__item">
             <div class="nav__link dropdown__button">
-              Placements <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              Training And Placements <i class="ri-arrow-down-s-line dropdown__arrow"></i>
             </div>
 
             <div class="dropdown__container">
