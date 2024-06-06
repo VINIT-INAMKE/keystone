@@ -1615,7 +1615,6 @@ a {
   font-weight: bolder;
 }
 .adm-form {
-  text-transform: lowercase;
   width: 100%;
   max-width: 500px;
   padding: 30px;
